@@ -42,6 +42,52 @@ body {
     transform: translateY(-2px);
 }
 
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon-nav {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.social-icon-nav:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px) scale(1.1);
+}
+
+/* אנימציה מיוחדת לאייקונים */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.social-icon-nav:hover {
+    animation: pulse 0.5s ease-in-out;
+}
+
+/* התאמה למסכים קטנים */
+@media (max-width: 992px) {
+    .social-icons {
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .social-icon-nav {
+        margin: 0 10px;
+    }
+}
+
 .hero-section {
     background: linear-gradient(rgba(255, 105, 180, 0.6), rgba(221, 160, 221, 0.6)), url('new-bg.jpg');
     background-size: cover;
