@@ -1,0 +1,334 @@
+html{
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-image: url(/works/work-page-cs2-israel/cs2-web/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.826); /* הצבע הלבן עם 50% שקיפות */
+    background-blend-mode: overlay; /* שילוב בין צבע הרקע לתמונה */
+}
+
+#sidebar{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    top: 65px;
+    right: 330px;
+}
+
+#navbar{
+    position: absolute;
+    color: rgb(247, 120, 81);
+    height: auto;
+    line-height: 2.2em;
+}
+
+nav{
+    font-weight: 600;
+}
+
+a{
+    color: #fff;
+    text-decoration: inherit;
+    margin: 9px;
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(5deg);
+    transition: 0.5s ease;
+}
+
+a:hover{
+    color: rgb(247, 120, 81);
+    background-color:rgba(255, 255, 255, 0.116);
+    border-radius: 10px;
+}
+
+.title-line{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 25px;
+    margin: 5px;
+}
+
+#middle-container{
+    position: relative;
+    width: 75%;
+    height: 650px;
+    right: 180px;
+    margin: auto;
+}
+
+#news-block1{
+    position: absolute;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    border-radius: 10px;
+    width: 400px;
+    height: 220px;
+    right: 180px;
+    top: 50px;
+    transition: 0.5s ease;
+}
+
+#render1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 235px;
+    top: -29px;
+}
+
+.block1-text1{
+    position: absolute;
+    color: #fff;
+    background-color: #00000018;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    top: 8px;
+    width: 318px;
+    left: 8px;
+}
+
+#form-send{
+    font-family: 'Open Sans';
+    color: #0479fe;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.6s ease;
+}
+
+#form-send:hover{
+    color: #ffffff;
+    background-color: #04c0fe00;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.block1-text2{
+    position: absolute;
+    color: #fff;
+    background-color: #00000018;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    top: 8px;
+    width: 350px;
+    height: 190px;
+    left: 72px;
+}
+
+#news-block2{
+    position: absolute;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    border-radius: 10px;
+    width: 450px;
+    height: 220px;
+    right: 620px;
+    top: 50px;
+    transition: 0.5s ease;
+}
+
+#render2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 160px;
+    top: -50px;
+}
+
+#server-bloack1{
+    position: absolute;
+    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.501); /* הצבע הלבן עם 50% שקיפות */
+    background-blend-mode: overlay; /* שילוב בין צבע הרקע לתמונה */
+    border-radius: 10px;
+    width: 200px;
+    height: 320px;
+    right: 180px;
+    top: 300px;
+    transition: 0.5s ease;
+
+}
+
+#server-bloack1:hover{
+    background-position: 75%;
+    background-color: rgba(0, 0, 0, 0); /* הצבע הלבן עם 50% שקיפות */
+    border: 1px solid rgba(255, 217, 0, 0.873);
+}
+
+#server-bloack2{
+    position: absolute;
+    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.501); /* הצבע הלבן עם 50% שקיפות */
+    background-blend-mode: overlay; /* שילוב בין צבע הרקע לתמונה */
+    border-radius: 10px;
+    width: 200px;
+    height: 320px;
+    right: 410px;
+    top: 300px;
+    transition: 0.5s ease;
+
+}
+
+#server-bloack2:hover{
+    background-position: 75%;
+    background-color: rgba(0, 0, 0, 0); /* הצבע הלבן עם 50% שקיפות */
+    border: 1px solid rgba(255, 217, 0, 0.873);
+}
+
+#server-bloack3{
+    position: absolute;
+    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.501); /* הצבע הלבן עם 50% שקיפות */
+    background-blend-mode: overlay; /* שילוב בין צבע הרקע לתמונה */
+    border-radius: 10px;
+    width: 200px;
+    height: 320px;
+    right: 640px;
+    top: 300px;
+    transition: 0.5s ease;
+
+}
+
+#server-bloack3:hover{
+    background-position: 75%;
+    background-color: rgba(0, 0, 0, 0); /* הצבע הלבן עם 50% שקיפות */
+    border: 1px solid rgba(255, 217, 0, 0.873);
+}
+
+#server-bloack4{
+    position: absolute;
+    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.501); /* הצבע הלבן עם 50% שקיפות */
+    background-blend-mode: overlay; /* שילוב בין צבע הרקע לתמונה */
+    border-radius: 10px;
+    width: 200px;
+    height: 320px;
+    right: 875px;
+    top: 300px;
+    transition: 0.5s ease;
+
+}
+
+#server-bloack4:hover{
+    background-position: 75%;
+    background-color: rgba(0, 0, 0, 0); /* הצבע הלבן עם 50% שקיפות */
+    border: 1px solid rgba(255, 217, 0, 0.873);
+}
+
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+
+    /* Sidebar adjustments */
+    #sidebar {
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+
+    #navbar {
+        text-align: center;
+        position: relative;
+    }
+
+    /* Middle container adjustments */
+    #middle-container {
+        width: 100%;
+        height: auto;
+        right: 0;
+        padding: 10px;
+    }
+
+    /* News blocks adjustments */
+    #news-block1,
+    #news-block2 {
+        width: 90%;
+        margin: 0 auto 20px auto;
+        height: auto;
+        position: relative;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Centering images */
+    #render1
+        {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    
+    #render2 {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        position: relative;
+        top: 0;
+        right: 0; 
+        display: block;
+    }
+
+    .title-line{
+        margin: 10px auto;
+
+        }
+
+    .block1-text1,
+    .block1-text2 {
+        width: 90%;
+        margin: 10px auto;
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+
+    /* Server blocks adjustments */
+    #servers-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    #server-bloack1,
+    #server-bloack2,
+    #server-bloack3,
+    #server-bloack4,
+    #server-bloack5 {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+        right: 0;
+        position: relative;
+        border-radius: 10px;
+    }
+}
