@@ -9,7 +9,7 @@ body {
 }
 
 #top-contrainer{
-    background-image: url(/works/pink-form/work/top-bg.png);
+    background-image: url(works/pink-form/work/top-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
