@@ -5,7 +5,7 @@ html{
 
 body{
     font-family: 'Open Sans';
-    background-image: url(/works/work-page-cs2-israel/cs2-web/images/bg.jpg);
+    background-image: url(works/work-page-cs2-israel/cs2-web/images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.826); /* הצבע הלבן עם 50% שקיפות */
@@ -146,7 +146,7 @@ a:hover{
 
 #server-bloack1{
     position: absolute;
-    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-image: url(works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
     background-repeat: no-repeat;
     background-position: 60%;
     background-size: cover;
@@ -169,7 +169,7 @@ a:hover{
 
 #server-bloack2{
     position: absolute;
-    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-image: url(works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
     background-repeat: no-repeat;
     background-position: 60%;
     background-size: cover;
@@ -192,7 +192,7 @@ a:hover{
 
 #server-bloack3{
     position: absolute;
-    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-image: url(works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
     background-repeat: no-repeat;
     background-position: 60%;
     background-size: cover;
@@ -215,7 +215,7 @@ a:hover{
 
 #server-bloack4{
     position: absolute;
-    background-image: url(/works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
+    background-image: url(works/work-page-cs2-israel/cs2-web/images/de_dust2.jpg);
     background-repeat: no-repeat;
     background-position: 60%;
     background-size: cover;
