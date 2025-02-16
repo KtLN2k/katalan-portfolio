@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פרופיל משתמש</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="top-navbar">
+        <img src="logo.svg" id="top-logo" alt="site-logo">
+        <span id="welcome-user"></span>
+        <div class="clock-container">
+            <i class="fa-regular fa-clock"></i>
+            <span id="current-time"></span>
+        </div>
+        <button onclick="logout()" class="logout-btn">התנתק <i class="fa-solid fa-sign-out"></i></button>
+    </div>
+    
+    <div class="container">
+        <h2>פרופיל משתמש</h2>
+        <div class="user-stats">
+            <div class="stat-box">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>תאריך הרשמה:</span>
+                <span id="registration-date"></span>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>זמן מאז ההרשמה:</span>
+                <span id="time-since-registration"></span>
+            </div>
+        </div>
+        <br>
+        <form id="profile-form">
+            <input type="text" id="fname" name="firstname" placeholder="שם מלא">
+            <input type="text" id="lname" name="lastname" placeholder="שם משפחה">
+            <input type="email" id="email" name="email" placeholder="אימייל" readonly>
+            <input type="password" id="password" name="password" placeholder="סיסמא חדשה (השאר ריק אם אין שינוי)">
+            <button type="submit">שמור שינויים <i class="fa-solid fa-save"></i></button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

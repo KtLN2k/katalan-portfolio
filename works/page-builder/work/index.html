@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Builder - בונה מסכים</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="sidebar">
+        <h1>בונה מסכים</h1>
+        <h5>בונה מסכים, בקלות ומהירות.</h5>
+        <select id="select1">
+            <option value="" selected disabled>אנא בחר אלמנט...</option>
+            <option value="h1">כותרת ראשית</option>
+            <option value="h2">כותרת משנה</option>
+            <option value="p">פסקה</option>
+            <option value="div">תיבה</option>
+            <option value="span">טקסט</option>
+            <option value="a">קישור</option>
+            <option value="img">תמונה</option>
+            <option value="ul">רשימה לא מסודרת</option>
+
+        </select>
+        <h4>הזן רוחב</h4>
+        <input type="text" id="input2" placeholder="רוחב">
+        <h4>הזן גובה</h4>
+        <input type="text" id="input3" placeholder="גובה">
+        <h4>הזן תוכן</h4>
+        <input type="text" id="input4" placeholder="תוכן">
+        <h4>בחר צבע רקע</h4>
+        <input type="color" id="input5" placeholder="צבע רקע">
+        <h4>בחר גודל טקסט</h4>
+        <input type="text" id="input6" placeholder="גודל הגופן">
+        <h4>בחר סוג גופן</h4>
+        <select id="input7">
+            <option value="" selected disabled>בחר גופן...</option>
+            <option value="Arial">Arial</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="David">דוד</option>
+            <option value="Miriam">מרים</option>
+            <option value="Rubik">רוביק</option>
+            <option value="Heebo">חיבו</option>
+        </select>
+
+        <button id="add">הוסף</button>
+        <button id="clear">נקה</button>
+    </div>
+
+    <div class="container"></div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
