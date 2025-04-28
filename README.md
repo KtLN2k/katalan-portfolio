@@ -12,7 +12,7 @@
 
 ## איך להשתמש?
 1. למעבר לפרוייקט:
-https://benkatalan.github.io/katalan-portfolio/
+https://ktln2k.github.io/katalan-portfolio/
 2. לפתוח את הקובץ index.html בדפדפן כדי לצפות בעמוד הראשי.
    
 תיהנו מהפרויקטים ואל תהססו לפנות עם שאלות!
